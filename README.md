@@ -57,6 +57,8 @@ node Chapter_01_Basics/04_HotCode.js
 
 ## Author
 
-**erpurvi** - learning in public, one chapter at a time.
+**erpurvi** 
 
-GitHub: [https://github.com/erpurvi/PlaywrightProgramming](https://github.com/erpurvi/PlaywrightProgramming)
+**learning in public, one chapter at a time.**
+
+**GitHub:** https://github.com/erpurvi
