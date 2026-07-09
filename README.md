@@ -9,6 +9,7 @@ A hands-on learning repository for **JavaScript fundamentals** and **Playwright 
 - **Chapter_01_Basics** — Basic setup and verification scripts
 - **Chapter_02_Javascript_Concepts** — JavaScript fundamentals
 - **Chapter_03_Identifier_Literals** — Identifier rules, literals, and comments
+- **Chapter_04_JavaScript_Concepts** — var/let/const, scope, and hoisting
 
 > More chapters will be added as the learning path progresses.
 
@@ -30,13 +31,22 @@ A hands-on learning repository for **JavaScript fundamentals** and **Playwright 
 | `Chapter_03_Identifier_Literals/Identifier_Rules_Example.js` | Identifier rule examples in practice |
 | `Chapter_03_Identifier_Literals/ShortCut_Commands_VSCode.md` | Useful VS Code keyboard shortcuts |
 | `Chapter_03_Identifier_Literals/VS_Code_keyboard_shortcut_windows.md` | Windows-specific VS Code shortcut reference |
+| `Chapter_04_JavaScript_Concepts/09_var_let_const.js` | Differences between `var`, `let`, and `const` |
+| `Chapter_04_JavaScript_Concepts/10_functions.js` | Function declarations and usage |
+| `Chapter_04_JavaScript_Concepts/11_var_explained.js` | Deep dive into `var` behavior |
+| `Chapter_04_JavaScript_Concepts/12_let_peope_love.js` | Why developers prefer `let` |
+| `Chapter_04_JavaScript_Concepts/13_const_explained.js` | `const` behavior and immutability |
+| `Chapter_04_JavaScript_Concepts/14_var_functionscope.js` | Function scope of `var` |
+| `Chapter_04_JavaScript_Concepts/15_let_scope.js` | Block scope of `let` |
+| `Chapter_04_JavaScript_Concepts/16_Hoisting.js` | Hoisting with `var` at global scope |
+| `Chapter_04_JavaScript_Concepts/17_Hoisting_fn.js` | Hoisting inside functions (var function-scope) |
 
 ## How to Run
 
 You can run any `.js` file using Node.js:
 
 ```bash
-node Chapter_03_Identifier_Literals/08_Comments.js
+node Chapter_04_JavaScript_Concepts/17_Hoisting_fn.js
 ```
 
 ## Topics Covered
@@ -45,6 +55,9 @@ node Chapter_03_Identifier_Literals/08_Comments.js
 - Valid and invalid identifier examples
 - Naming conventions (camelCase, UPPER_CASE)
 - Comments (single-line and multi-line)
+- `var` vs `let` vs `const` and their scoping rules
+- Function scope vs block scope
+- Hoisting with `var` (global and function-scoped)
 
 ## Git Shortcuts
 
