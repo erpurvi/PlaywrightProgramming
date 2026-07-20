@@ -10,6 +10,8 @@ A hands-on learning repository for **JavaScript fundamentals** and **Playwright 
 - **Chapter_02_Javascript_Concepts** — JavaScript fundamentals
 - **Chapter_03_Identifier_Literals** — Identifier rules, literals, and comments
 - **Chapter_04_JavaScript_Concepts** — var/let/const, scope, and hoisting
+- **Chapter_05_Literal** — Literals (string, number, null/undefined, template literals, backtick, BigInt)
+- **Chapter_06_Operator** — JavaScript operators introduction
 
 > More chapters will be added as the learning path progresses.
 
@@ -40,6 +42,22 @@ A hands-on learning repository for **JavaScript fundamentals** and **Playwright 
 | `Chapter_04_JavaScript_Concepts/15_let_scope.js` | Block scope of `let` |
 | `Chapter_04_JavaScript_Concepts/16_Hoisting.js` | Hoisting with `var` at global scope |
 | `Chapter_04_JavaScript_Concepts/17_Hoisting_fn.js` | Hoisting inside functions (var function-scope) |
+| `Chapter_04_JavaScript_Concepts/18_let_Hoisting.js` | Hoisting and TDZ with `let` |
+| `Chapter_04_JavaScript_Concepts/19_let_Hoisting_block.js` | Block-scoped `let` hoisting and TDZ |
+| `Chapter_04_JavaScript_Concepts/20_let_const.js` | `let` and `const` comparison |
+| `Chapter_04_JavaScript_Concepts/21_Jr_QA.js` | Jr QA interview practice with var/let/const |
+| `Chapter_05_Literal/22_Literal.js` | Literal types: string, number, boolean, null, undefined |
+| `Chapter_05_Literal/23_null_undefined.js` | Deep dive into `null` vs `undefined` |
+| `Chapter_05_Literal/23_null_undefined_2.js` | Additional `null` vs `undefined` examples |
+| `Chapter_05_Literal/24_null.js` | `null` literal and typeof quirk |
+| `Chapter_05_Literal/25_Literal_All.js` | All literal types combined with a Playwright story |
+| `Chapter_05_Literal/26_Literal_Number_all.js` | Number literal types: decimal, hex, octal, binary, BigInt, separators |
+| `Chapter_05_Literal/26_Literal_Number_all_1.js` | Number literal types (extended version) |
+| `Chapter_05_Literal/27_String.js` | String literals: single, double quotes, and escape characters |
+| `Chapter_05_Literal/28_Template_Literal.js` | Template literals and string interpolation |
+| `Chapter_05_Literal/29_Backtick_single_double.js` | Single quote vs double quote vs backtick comparison |
+| `Chapter_05_Literal/TDZ_var_let_const.md` | Hoisting & TDZ reference (var, let, const) in markdown |
+| `Chapter_06_Operator/30_Operators.js` | JavaScript operators introduction |
 
 ## How to Run
 
@@ -57,7 +75,13 @@ node Chapter_04_JavaScript_Concepts/17_Hoisting_fn.js
 - Comments (single-line and multi-line)
 - `var` vs `let` vs `const` and their scoping rules
 - Function scope vs block scope
-- Hoisting with `var` (global and function-scoped)
+- Hoisting with `var`, `let`, `const` (global, function-scoped, block-scoped)
+- Temporal Dead Zone (TDZ)
+- Literals: string (single/double/backtick), number (decimal/hex/octal/binary), boolean, null, undefined
+- Numeric separators and BigInt
+- Template literals and interpolation
+- Null vs undefined (typeof quirk, loose vs strict equality)
+- JavaScript operators
 
 ## Git Shortcuts
 
