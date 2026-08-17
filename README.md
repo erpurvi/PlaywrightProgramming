@@ -11,7 +11,7 @@ A hands-on learning repository for **JavaScript fundamentals** and **Playwright 
 - **Chapter_03_Identifier_Literals** — Identifier rules, literals, and comments
 - **Chapter_04_JavaScript_Concepts** — var/let/const, scope, and hoisting
 - **Chapter_05_Literal** — Literals (string, number, null/undefined, template literals, backtick, BigInt)
-- **Chapter_06_Operator** — JavaScript operators introduction
+- **Chapter_06_Operator** — JavaScript operators (assignment, arithmetic, comparison, logical, and more)
 
 > More chapters will be added as the learning path progresses.
 
@@ -79,6 +79,44 @@ node Chapter_04_JavaScript_Concepts/17_Hoisting_fn.js
 - Temporal Dead Zone (TDZ)
 - Literals: string (single/double/backtick), number (decimal/hex/octal/binary), boolean, null, undefined
 - Numeric separators and BigInt
+- Template literals and interpolation
+- Null vs undefined (typeof quirk, loose vs strict equality)
+- JavaScript operators
+
+## Git Shortcuts
+
+Save these so commit & push becomes one-line muscle memory:
+
+| Action | Command |
+|---|---|
+| Check what changed | `git status` |
+| Stage a specific file | `git add path/to/file.js` |
+| Stage everything | `git add -A` |
+| Stage all tracked file changes (incl. deletions) | `git add -u` |
+| Commit with inline message | `git commit -m "your message"` |
+| Push to remote | `git push` |
+| Pull latest from remote | `git pull` |
+| View commit log | `git log --oneline` |
+
+### One-liner: stage + commit + push (after first time)
+
+```bash
+git add -A && git commit -m "your message" && git push
+```
+
+### One-liner: commit a single file
+
+```bash
+git add path/to/file.js && git commit -m "update file" && git push
+```
+
+> **Tip:** Every commit on this repo automatically gets the co-author `CommandCodeBot` so your commits are properly attributed to your AI pair programmer.
+
+## Author
+
+**Purvi Babariya**
+GitHub: [@erpurvi](https://github.com/erpurvi)
+Int
 - Template literals and interpolation
 - Null vs undefined (typeof quirk, loose vs strict equality)
 - JavaScript operators
