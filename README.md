@@ -11,7 +11,7 @@ Code and notes are added chapter by chapter as I progress through the course. Ja
 - **TypeScript** — types, interfaces, enums, generics, access modifiers, decorators
 - **Playwright** — setup, config, end-to-end tests
 
-## Repository Structure
+## Topics Covered
 
 | Chapter | Topic |
 | :------ | :----- |
@@ -48,4 +48,3 @@ Code and notes are added chapter by chapter as I progress through the course. Ja
 | Chapter 31 | Type Override & Decorators |
 | Chapter 32 | Playwright Fundamentals |
 
-> More content will be added to later chapters as the course progresses.
